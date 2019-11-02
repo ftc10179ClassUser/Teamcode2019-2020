@@ -17,6 +17,7 @@ public class TimedAutoFull extends LinearOpMode {
         wheelController = new WheelController(config);
         Servo foundationGrabber;
         foundationGrabber = hardwareMap.servo.get("foundationGrabber");
+        waitForStart();
 
         //moves forward to foundation
         wheelController.moveXY(0,-0.25);
