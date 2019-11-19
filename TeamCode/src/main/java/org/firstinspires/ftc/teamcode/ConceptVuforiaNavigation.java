@@ -27,11 +27,11 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.firstinspires.ftc.robotcontroller.external.samples;
+package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.RobotLog;
 
 import org.firstinspires.ftc.robotcore.external.ClassFactory;
@@ -112,7 +112,7 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
          * web site at https://developer.vuforia.com/license-manager.
          *
          * Vuforia license keys are always 380 characters long, and look as if they contain mostly
-         * random data. As an example, here is a example of a fragment of a valid key:
+         * random data. Example vuforia key fragment:
          *      ... yIgIzTqZ4mWjk9wd3cZO9T1axEqzuhxoGlfOOI2dRzKS4T0hQ8kT ...
          * Once you've obtained a license key, copy the string from the Vuforia web site
          * and paste it in to your code on the next line, between the double quotes.
@@ -277,7 +277,7 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
          * C = phoneLocationOnRobot  maps   phone coords -> robot coords
          * P = tracker.getPose()     maps   image target coords -> phone coords
          * L = redTargetLocationOnField maps   image target coords -> field coords
-         *
+         *  `
          * So
          *
          * C.inverted()              maps   robot coords -> phone coords
